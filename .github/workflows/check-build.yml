@@ -1,0 +1,24 @@
+name: Check pages are built
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Rebuild pages from data/
+        run: node scripts/build.mjs
+      - name: Fail if the committed pages are out of date
+        run: |
+          if ! git diff --quiet || [ -n "$(git status --porcelain --untracked-files=all)" ]; then
+            echo "::error::Pages are out of date. Run 'node scripts/build.mjs' and commit the result."
+            git status --short
+            exit 1
+          fi

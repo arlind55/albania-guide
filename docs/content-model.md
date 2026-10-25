@@ -8,10 +8,10 @@ Each entry in `places` is one destination.
 
 | Field | Type | Notes |
 | --- | --- | --- |
-| `id` | string | URL slug, e.g. `theth`. Used in `place.html?id=theth`. |
+| `id` | string | URL slug, e.g. `theth`, giving `/places/theth/`. |
 | `name` | string | Display name. |
 | `tagline` | string | One line shown on cards and under the title. |
-| `region` | `north` \| `central` \| `south` | Labels live in `js/config.js`. |
+| `region` | `north` \| `central` \| `south` \| `southeast` | Labels live in `js/config.js`. |
 | `category` | `beaches` \| `mountains` \| `history` \| `cities` \| `nature` | Drives the home page filter. |
 | `coords` | `[lat, lng]` | Used for the coordinates label and the Directions link. |
 | `image` | string or string[] | Wikimedia Commons file name (without `File:`), or a list of candidates, best first. The site uses the first one that is high-resolution enough, so listing backups avoids pixelated photos. |
@@ -24,6 +24,12 @@ Each entry in `places` is one destination.
 | `watchOut` | string[] | Practical warnings and gotchas. |
 | `book.tours` | string | Search term for GetYourGuide. |
 | `book.stays` | string | Search term for Booking.com. |
+
+## `data/itineraries.json`
+
+Each itinerary has an `id` (giving `/itineraries/<id>/`), `title`, `short` (tab label), `tagline`, `summary`, `image`, `bestFor`, `transport`, `pace` and `days`. Each day has `title`, `base` (where you sleep), `places` (place ids, linked to their guides), `travel`, `morning`, `afternoon`, `evening`, `tip` and `stay` (Booking.com search).
+
+After any change, run `node scripts/build.mjs` to regenerate the pages and sitemap.
 
 ## `data/essentials.json`
 

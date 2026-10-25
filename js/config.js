@@ -21,5 +21,6 @@ export const CATEGORIES = [
 export const REGIONS = {
   north: "The North",
   central: "Central Albania",
-  south: "The South"
+  south: "The South",
+  southeast: "The South-East"
 };
