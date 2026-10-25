@@ -22,6 +22,20 @@ Then open http://localhost:8000.
 
 Settings → Pages → Build and deployment → Source: **Deploy from a branch**, Branch: **main**, folder **/ (root)**. The site appears at `https://<user>.github.io/albania-guide/` within a minute or two.
 
+### Custom domain: udhatravel.com
+
+The `CNAME` file tells GitHub Pages to serve the site at `www.udhatravel.com`. DNS records at the registrar:
+
+| Type | Name | Value |
+| --- | --- | --- |
+| CNAME | `www` | `arlind55.github.io` |
+| A | `@` | `185.199.108.153` |
+| A | `@` | `185.199.109.153` |
+| A | `@` | `185.199.110.153` |
+| A | `@` | `185.199.111.153` |
+
+With these in place, `udhatravel.com` redirects to `www.udhatravel.com`. Then tick **Enforce HTTPS** under Settings → Pages once GitHub has issued the certificate.
+
 ## Editing content
 
 - Places: `data/places.json`
