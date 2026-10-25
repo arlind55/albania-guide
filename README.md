@@ -5,14 +5,15 @@ A photo-led travel guide to Albania for first-time visitors, from the beaches of
 ## What's here
 
 - **Home**: a split sea-and-mountains hero and ten places you can filter by beaches, mountains, history, cities and nature.
-- **Place pages**: overview, highlights, how to get there, what to watch out for, plus links to find tours (GetYourGuide), stays (Booking.com) and directions.
+- **Place pages** (`/places/<id>/`): overview, highlights, how to get there, what to watch out for, plus links to find tours (GetYourGuide), stays (Booking.com) and directions.
 - **Getting around**: buses and furgons, driving, money and other practical tips.
 
 ## Run it locally
 
-No build step. From the repo folder:
+From the repo folder:
 
 ```sh
+node scripts/build.mjs      # regenerate pages after content changes
 python3 -m http.server 8000
 ```
 
@@ -36,13 +37,17 @@ The `CNAME` file tells GitHub Pages to serve the site at `www.udhaguide.com`. DN
 
 With these in place, `udhaguide.com` redirects to `www.udhaguide.com`. Then tick **Enforce HTTPS** under Settings → Pages once GitHub has issued the certificate.
 
+## How the site is built
+
+Content lives in `data/*.json`. `node scripts/build.mjs` turns it into real HTML pages with clean URLs (`/places/theth/`, `/itineraries/albanian-alps/`, `/getting-around/`), page titles, descriptions, link previews and structured data for Google, plus `sitemap.xml` and `robots.txt`. GitHub Pages serves the generated files directly; there's no build step on the server.
+
+**After editing anything in `data/` or `js/render.js`, run `node scripts/build.mjs` and commit the result.** A GitHub check fails on pull requests if you forget.
+
 ## Editing content
 
 - Places: `data/places.json`
 - Getting around: `data/essentials.json`
 - Site name and affiliate IDs: `js/config.js`
-
-After adding places or itineraries, run `python3 scripts/build_sitemap.py` so Google finds the new pages.
 
 See [docs/content-model.md](docs/content-model.md) for every field, and [docs/app-roadmap.md](docs/app-roadmap.md) for the plan to move to iOS and Android.
 

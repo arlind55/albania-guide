@@ -8,9 +8,14 @@
       "tagline": "Turquoise coves and a 2,500-year-old city on the same afternoon",
       "region": "south",
       "category": "beaches",
-      "coords": [39.7686, 20.0011],
+      "coords": [
+        39.7686,
+        20.0011
+      ],
       "image": "Ksamil Beach.jpg",
-      "gallery": ["Amphitheatre of Butrint 2009.jpg"],
+      "gallery": [
+        "Amphitheatre of Butrint 2009.jpg"
+      ],
       "bestTime": "June and September (July–August is very crowded)",
       "days": "2–3 days",
       "summary": [
@@ -33,7 +38,10 @@
         "July and August bring heavy traffic and prices to match. Book stays well ahead.",
         "Build quality and noise vary a lot between apartments; read recent reviews."
       ],
-      "book": { "tours": "Butrint", "stays": "Ksamil, Albania" }
+      "book": {
+        "tours": "Butrint",
+        "stays": "Ksamil, Albania"
+      }
     },
     {
       "id": "himare",
@@ -41,7 +49,10 @@
       "tagline": "The Riviera's laid-back heart, with a castle on the hill",
       "region": "south",
       "category": "beaches",
-      "coords": [40.1017, 19.7447],
+      "coords": [
+        40.1017,
+        19.7447
+      ],
       "image": "Himara 2021.jpg",
       "bestTime": "Late May to early October",
       "days": "2–4 days",
@@ -65,7 +76,10 @@
         "Coastal buses are frequent in summer but thin out sharply from October to May.",
         "The Llogara road is steep with hairpins; take it slowly and use low gears on the way down."
       ],
-      "book": { "tours": "Himare", "stays": "Himare, Albania" }
+      "book": {
+        "tours": "Himare",
+        "stays": "Himare, Albania"
+      }
     },
     {
       "id": "blue-eye",
@@ -73,7 +87,10 @@
       "tagline": "A bottomless spring of impossible blue",
       "region": "south",
       "category": "nature",
-      "coords": [39.9236, 20.1925],
+      "coords": [
+        39.9236,
+        20.1925
+      ],
       "image": "Syri i kalter (The Blue Eye), Albania, September 2022 08.jpg",
       "bestTime": "Any time of year; early morning to beat the crowds",
       "days": "Half a day",
@@ -96,7 +113,10 @@
         "The water is about 10 °C all year.",
         "There's a small entrance and parking fee; bring cash in lek."
       ],
-      "book": { "tours": "Blue Eye Albania", "stays": "Saranda, Albania" }
+      "book": {
+        "tours": "Blue Eye Albania",
+        "stays": "Saranda, Albania"
+      }
     },
     {
       "id": "gjirokaster",
@@ -104,7 +124,10 @@
       "tagline": "The City of Stone, under a giant fortress",
       "region": "south",
       "category": "history",
-      "coords": [40.0758, 20.1389],
+      "coords": [
+        40.0758,
+        20.1389
+      ],
       "image": [
         "Gjirokastёr (by Pudelek).JPG",
         "Rruga Gjin Zenebisi - Gjirokastër old town.jpg",
@@ -132,7 +155,10 @@
         "The polished stone streets are very slippery, especially when wet. Wear shoes with grip.",
         "Parking in the old town is tight; leave the car lower down if you can."
       ],
-      "book": { "tours": "Gjirokaster", "stays": "Gjirokaster, Albania" }
+      "book": {
+        "tours": "Gjirokaster",
+        "stays": "Gjirokaster, Albania"
+      }
     },
     {
       "id": "berat",
@@ -140,7 +166,10 @@
       "tagline": "The city of a thousand windows",
       "region": "central",
       "category": "history",
-      "coords": [40.7058, 19.9522],
+      "coords": [
+        40.7058,
+        19.9522
+      ],
       "image": "Berat, Mangalem quarter, Albania.JPG",
       "bestTime": "April–June and September–October",
       "days": "1–2 days",
@@ -162,7 +191,10 @@
         "The walk up to the castle is steep and cobbled; go early or late in summer heat.",
         "Osum Canyon rafting is best in spring when the river is high."
       ],
-      "book": { "tours": "Berat", "stays": "Berat, Albania" }
+      "book": {
+        "tours": "Berat",
+        "stays": "Berat, Albania"
+      }
     },
     {
       "id": "tirana",
@@ -170,7 +202,10 @@
       "tagline": "Colourful, chaotic and the place most trips begin",
       "region": "central",
       "category": "cities",
-      "coords": [41.3275, 19.8187],
+      "coords": [
+        41.3275,
+        19.8187
+      ],
       "image": [
         "Skanderbeg Square, Tirana (49593920957).jpg",
         "Clocktower with Mosque Minaret and Apartment Facade - Skanderbeg Square - Tirana - Albania (40987352950).jpg",
@@ -197,7 +232,10 @@
         "Traffic is heavy at rush hour. Allow extra time to reach the airport.",
         "With airport taxis, use the official rank and confirm the fare before you get in."
       ],
-      "book": { "tours": "Tirana", "stays": "Tirana, Albania" }
+      "book": {
+        "tours": "Tirana",
+        "stays": "Tirana, Albania"
+      }
     },
     {
       "id": "shkoder",
@@ -205,7 +243,10 @@
       "tagline": "Lakeside city and gateway to the Albanian Alps",
       "region": "north",
       "category": "cities",
-      "coords": [42.0683, 19.5126],
+      "coords": [
+        42.0683,
+        19.5126
+      ],
       "image": "Rozafat - Shkoder, Albania.jpg",
       "bestTime": "May–October",
       "days": "1–2 days",
@@ -227,7 +268,10 @@
         "Minibuses to Theth and the Koman ferry leave very early, often around 6:30–7:00. Your guesthouse can book a seat and arrange pick-up.",
         "Withdraw cash here before heading into the mountains."
       ],
-      "book": { "tours": "Shkoder", "stays": "Shkoder, Albania" }
+      "book": {
+        "tours": "Shkoder",
+        "stays": "Shkoder, Albania"
+      }
     },
     {
       "id": "koman",
@@ -235,7 +279,10 @@
       "tagline": "A fjord-like boat ride through the mountains",
       "region": "north",
       "category": "nature",
-      "coords": [42.1065, 19.8247],
+      "coords": [
+        42.1065,
+        19.8247
+      ],
       "image": "Lake Koman Albania 2016.jpg",
       "bestTime": "Roughly May to October, when the ferries run daily",
       "days": "1 day (as part of a loop)",
@@ -257,7 +304,10 @@
         "You can bring a car on some boats, but space is very limited and must be reserved.",
         "The road to Koman is narrow and winding; it's easier to let someone else drive."
       ],
-      "book": { "tours": "Komani Lake ferry", "stays": "Valbona, Albania" }
+      "book": {
+        "tours": "Komani Lake ferry",
+        "stays": "Valbona, Albania"
+      }
     },
     {
       "id": "theth",
@@ -265,7 +315,10 @@
       "tagline": "A remote village deep in the Accursed Mountains",
       "region": "north",
       "category": "mountains",
-      "coords": [42.3958, 19.7744],
+      "coords": [
+        42.3958,
+        19.7744
+      ],
       "image": "Scenery at Theth Village - Northern Albania - 19 (40927652580).jpg",
       "bestTime": "June to September (the pass is snowbound outside this window)",
       "days": "2–3 days",
@@ -288,7 +341,10 @@
         "Mobile signal is patchy. Download offline maps before you go.",
         "Mountain weather changes fast. Carry layers, water and a headtorch on longer hikes."
       ],
-      "book": { "tours": "Theth", "stays": "Theth, Albania" }
+      "book": {
+        "tours": "Theth",
+        "stays": "Theth, Albania"
+      }
     },
     {
       "id": "valbona",
@@ -296,7 +352,10 @@
       "tagline": "Alpine meadows, glacial river, enormous skies",
       "region": "north",
       "category": "mountains",
-      "coords": [42.4515, 19.8897],
+      "coords": [
+        42.4515,
+        19.8897
+      ],
       "image": "Valbona Valley National Park, North Albania.jpg",
       "bestTime": "June to September",
       "days": "2–3 days",
@@ -319,7 +378,376 @@
         "Start the hike early: the climb is steep and exposed to sun.",
         "Cash only in most places."
       ],
-      "book": { "tours": "Valbona", "stays": "Valbona, Albania" }
+      "book": {
+        "tours": "Valbona",
+        "stays": "Valbona, Albania"
+      }
+    },
+    {
+      "id": "llogara",
+      "name": "Llogara Pass",
+      "tagline": "Pine forests 1,000 m above the Riviera",
+      "region": "south",
+      "category": "mountains",
+      "coords": [
+        40.2017,
+        19.5867
+      ],
+      "image": [
+        "Albanian Riviera from Llogara Pass 2015-09-22 (banner).jpg",
+        "Panorama Llogara - Gopro - August 2020 03.jpg",
+        "Llogara, Vlorë, Albania 2015 04.jpg",
+        "Llogara pass.jpg"
+      ],
+      "bestTime": "May to October; the road is open all year",
+      "days": "Half a day, or a night in the forest",
+      "summary": [
+        "The road from Vlorë to the Riviera climbs through Llogara National Park to a pass at just over 1,000 m, then drops in tight hairpins to the coast. At the top, the whole Ionian shoreline opens up below you, often with paragliders drifting over it.",
+        "The park's black pine and fir forests are cool even in August, and the roadside restaurants are known for spit-roast lamb and mountain tea. Julius Caesar is said to have landed his army on the beach at Palasë below in 48 BC."
+      ],
+      "highlights": [
+        "The viewpoint at the top of the pass over Dhërmi and Palasë",
+        "Short forest walks in Llogara National Park",
+        "Tandem paragliding from the ridge in summer",
+        "Lunch of roast lamb at one of the pass-top restaurants"
+      ],
+      "gettingThere": [
+        "By car: about 1 hour south of Vlorë on the SH8, or 30 minutes up from Dhërmi.",
+        "By bus: Riviera buses between Vlorë and Sarandë cross the pass; ask the driver to stop at the top."
+      ],
+      "watchOut": [
+        "The south side is a series of steep hairpins. Use low gears on the descent.",
+        "Cloud can roll over the pass quickly and hide the view; mornings are often clearest.",
+        "It's noticeably colder than the coast, so bring a layer."
+      ],
+      "book": {
+        "tours": "Llogara",
+        "stays": "Dhermi, Albania"
+      }
+    },
+    {
+      "id": "dhermi",
+      "name": "Dhërmi",
+      "tagline": "White pebbles, turquoise water and a hillside village",
+      "region": "south",
+      "category": "beaches",
+      "coords": [
+        40.1528,
+        19.6431
+      ],
+      "image": [
+        "Dhërmi - Beach.JPG",
+        "Dhermi beach.jpg",
+        "Albania, Dhermi.jpg"
+      ],
+      "bestTime": "June and September; July–August for festivals and nightlife",
+      "days": "2–3 days",
+      "summary": [
+        "Dhërmi is the first beach you reach coming down from the Llogara Pass: a long sweep of white pebbles and very clear water, with an old stone village and churches climbing the hill behind.",
+        "In high summer it's the Riviera's liveliest spot, with beach bars and music festivals. In June and September it's calm, warm and much cheaper."
+      ],
+      "highlights": [
+        "Swimming off the long main beach",
+        "Walking up through the old village and its churches",
+        "Gjipe beach and canyon, a hike or boat ride away",
+        "Sunset drinks on the beach"
+      ],
+      "gettingThere": [
+        "From Vlorë: about 1–1.5 hours by car or bus over the Llogara Pass.",
+        "From Tirana: 3.5–4.5 hours by bus or car.",
+        "From Himarë: about 30 minutes north along the coast."
+      ],
+      "watchOut": [
+        "Prices and crowds peak in late July and August.",
+        "Beaches are pebble; bring water shoes.",
+        "Parking near the beach is tight in summer."
+      ],
+      "book": {
+        "tours": "Dhermi",
+        "stays": "Dhermi, Albania"
+      }
+    },
+    {
+      "id": "dajti",
+      "name": "Mount Dajti",
+      "tagline": "Tirana's mountain, 15 minutes up by cable car",
+      "region": "central",
+      "category": "mountains",
+      "coords": [
+        41.3643,
+        19.9155
+      ],
+      "image": [
+        "Tirana view from Dajti mountain.jpg",
+        "Dajti – Maja e Tujanit View 1.jpg",
+        "Tirana Pamje nga Lana dhe Dajti.jpg"
+      ],
+      "bestTime": "All year on clear days; spring and autumn for hiking",
+      "days": "Half a day",
+      "summary": [
+        "Mount Dajti rises right behind Tirana, and the Dajti Ekspres cable car glides more than 4 km up its slopes in about 15 minutes. At the top you're in cool beech and pine forest with the whole city spread out below.",
+        "It's an easy escape from the capital's heat, with walking trails, viewpoint restaurants and, for the energetic, a hike towards the summit at around 1,600 m."
+      ],
+      "highlights": [
+        "The Dajti Ekspres cable car ride",
+        "Sunset over Tirana from a terrace restaurant",
+        "Forest walks in Dajti National Park",
+        "Hiking towards the summit"
+      ],
+      "gettingThere": [
+        "The cable car's lower station is on the eastern edge of Tirana, about 20 minutes by taxi or city bus from the centre.",
+        "By car, a winding road climbs to the top area in around 45 minutes."
+      ],
+      "watchOut": [
+        "The cable car stops in high winds and may close for maintenance. Check the day's opening before you go.",
+        "It's several degrees cooler at the top; bring a layer.",
+        "Go on a clear day, or the view disappears into haze."
+      ],
+      "book": {
+        "tours": "Dajti",
+        "stays": "Tirana, Albania"
+      }
+    },
+    {
+      "id": "kruje",
+      "name": "Krujë",
+      "tagline": "Skanderbeg's castle and a cobbled old bazaar",
+      "region": "central",
+      "category": "history",
+      "coords": [
+        41.5097,
+        19.7928
+      ],
+      "image": [
+        "Kruja Albania 2016 old bazaar.jpg",
+        "Old Bazar - Kruja, Albania.jpg",
+        "Kruja-Bazaar-Albania.JPG"
+      ],
+      "bestTime": "All year",
+      "days": "Half a day",
+      "summary": [
+        "Krujë clings to a mountainside north of Tirana, and its castle was the stronghold of Skanderbeg, Albania's national hero, who held off Ottoman armies here in the 15th century.",
+        "A restored Ottoman bazaar leads up to the castle, lined with shops selling carpets, felt hats and antiques. It's an easy half-day trip from Tirana and very close to the airport, so it also works on your first or last day."
+      ],
+      "highlights": [
+        "The Skanderbeg Museum inside the castle walls",
+        "The Ethnographic Museum in a traditional Ottoman-era house",
+        "Browsing the old bazaar",
+        "Views over the plain to the coast"
+      ],
+      "gettingThere": [
+        "From Tirana: about 1 hour by car or bus.",
+        "From Tirana airport: around 30–40 minutes by car."
+      ],
+      "watchOut": [
+        "The bazaar's cobbles are steep and slippery.",
+        "Museums are usually closed one day a week; check before you go.",
+        "Bargain politely in the bazaar."
+      ],
+      "book": {
+        "tours": "Kruja",
+        "stays": "Kruje, Albania"
+      }
+    },
+    {
+      "id": "durres",
+      "name": "Durrës",
+      "tagline": "Roman ruins and a long sandy shore, near Tirana",
+      "region": "central",
+      "category": "history",
+      "coords": [
+        41.3133,
+        19.4458
+      ],
+      "image": [
+        "Amphitheatre of Durrës (by Pudelek).JPG",
+        "Amphitheatre of Durrës 01.jpg",
+        "Durres Amphitheater.jpg"
+      ],
+      "bestTime": "May–June and September",
+      "days": "1 day",
+      "summary": [
+        "Durrës is one of the oldest cities on the Adriatic, founded by Greek colonists in the 7th century BC. In the middle of town sits a huge Roman amphitheatre, rediscovered in the 1960s and still being excavated.",
+        "It's also Albania's main port and the closest beach to Tirana, with a long seafront promenade and sandy beaches stretching south."
+      ],
+      "highlights": [
+        "The Roman amphitheatre and its early Christian chapel mosaics",
+        "The Archaeological Museum on the seafront",
+        "The Venetian tower and old city walls",
+        "An evening walk on the promenade"
+      ],
+      "gettingThere": [
+        "From Tirana: about 40 minutes by car or bus.",
+        "Ferries arrive here from Italian ports such as Bari."
+      ],
+      "watchOut": [
+        "Town beaches get very crowded in summer; quieter sand is further south.",
+        "Traffic on the Tirana–Durrës road is heavy on summer weekends."
+      ],
+      "book": {
+        "tours": "Durres",
+        "stays": "Durres, Albania"
+      }
+    },
+    {
+      "id": "osum-canyon",
+      "name": "Osum Canyon",
+      "tagline": "A river carved deep into the limestone",
+      "region": "central",
+      "category": "nature",
+      "coords": [
+        40.48,
+        20.21
+      ],
+      "image": [
+        "Opening of Osum Canyon.jpg",
+        "Osumit Canyon.JPG"
+      ],
+      "bestTime": "March–May for rafting; summer for walking and swimming",
+      "days": "1 day",
+      "summary": [
+        "Southeast of Berat, the Osum river has cut a canyon about 13 km long through the limestone near Çorovodë, with sheer walls, waterfalls and caves.",
+        "In spring, when the river is high, rafting trips run through the gorge. In summer the water drops and you can walk and swim in parts of it, or look down from viewpoints along the rim road."
+      ],
+      "highlights": [
+        "Rafting through the canyon in spring",
+        "Viewpoints along the canyon rim",
+        "Swimming in the river in summer",
+        "Combining it with a night in Berat"
+      ],
+      "gettingThere": [
+        "From Berat: about 1.5–2 hours by car to Çorovodë.",
+        "Most visitors come on a guided day trip or rafting tour from Berat."
+      ],
+      "watchOut": [
+        "Rafting depends on water levels; trips usually stop by early summer.",
+        "The road is slow and winding; allow plenty of time.",
+        "Facilities are basic; bring water and snacks."
+      ],
+      "book": {
+        "tours": "Osum Canyon",
+        "stays": "Berat, Albania"
+      }
+    },
+    {
+      "id": "korce",
+      "name": "Korçë",
+      "tagline": "Boulevards, beer and serenades in the south-east",
+      "region": "southeast",
+      "category": "cities",
+      "coords": [
+        40.6186,
+        20.7808
+      ],
+      "image": [
+        "Korca Old Bazaar (banner).jpg",
+        "Korca Old Bazaar.jpg",
+        "Korçë - Katedralja ortodokse Ngjallja e Krishtit (2018).jpg"
+      ],
+      "bestTime": "May–October; August for the beer festival",
+      "days": "1–2 days",
+      "summary": [
+        "Korçë sits on a high plateau at about 850 m, close to the borders with Greece and North Macedonia. It has a refined, slightly French air, with tree-lined boulevards, villas, a big Orthodox cathedral and a beautifully restored Ottoman bazaar.",
+        "It's known for Korça beer, brewed here since 1928, its summer beer festival, traditional serenade singing, and lakror, a savoury layered pie."
+      ],
+      "highlights": [
+        "The restored Old Bazaar and its cafés",
+        "The National Museum of Medieval Art and its icon collection",
+        "The Resurrection Cathedral",
+        "A Korça beer and a plate of lakror"
+      ],
+      "gettingThere": [
+        "From Tirana: about 3.5–4 hours by bus or car.",
+        "From Pogradec and Lake Ohrid: about 45 minutes."
+      ],
+      "watchOut": [
+        "Winters are cold and snowy; pack accordingly from November to March.",
+        "Book ahead for the August beer festival."
+      ],
+      "book": {
+        "tours": "Korce",
+        "stays": "Korce, Albania"
+      }
+    },
+    {
+      "id": "voskopoje",
+      "name": "Voskopojë",
+      "tagline": "A mountain village with frescoed churches",
+      "region": "southeast",
+      "category": "mountains",
+      "coords": [
+        40.6331,
+        20.5886
+      ],
+      "image": [
+        "Voskopoje St Michael.JPG",
+        "Voskopoje St Charalampus.JPG",
+        "Voskopoje Mikolaj17.JPG"
+      ],
+      "bestTime": "May–October for walking; winter for snow",
+      "days": "1 day",
+      "summary": [
+        "High in the hills west of Korçë, Voskopojë was one of the largest and richest trading towns in the Balkans in the 18th century, with its own printing press and academy.",
+        "Most of it was destroyed in later wars, but a handful of stone churches survived, covered inside with remarkable frescoes. Today it's a quiet mountain village of guesthouses, pine forests and fresh air."
+      ],
+      "highlights": [
+        "The frescoes of St Nicholas and St Athanasius churches",
+        "Forest walks around the village",
+        "Guesthouse lunches with local produce",
+        "Snow and a small ski slope in winter"
+      ],
+      "gettingThere": [
+        "From Korçë: about 30 minutes by car or taxi.",
+        "Local minibuses run from Korçë, but not often; a taxi is easier."
+      ],
+      "watchOut": [
+        "Church opening times are irregular; ask in the village or at your guesthouse for the key holder.",
+        "It's cool even in summer evenings at over 1,100 m."
+      ],
+      "book": {
+        "tours": "Voskopoje",
+        "stays": "Voskopoje, Albania"
+      }
+    },
+    {
+      "id": "pogradec",
+      "name": "Pogradec & Lake Ohrid",
+      "tagline": "One of Europe's oldest lakes, on Albania's quiet side",
+      "region": "southeast",
+      "category": "nature",
+      "coords": [
+        40.9025,
+        20.6525
+      ],
+      "image": [
+        "Pogradec from South.jpg",
+        "Tushemisht, Pogradec.jpg",
+        "Lake Ohrid (45334643772).jpg"
+      ],
+      "bestTime": "June–September",
+      "days": "1–2 days",
+      "summary": [
+        "Lake Ohrid is one of the oldest and deepest lakes in Europe, shared between Albania and North Macedonia and protected as a UNESCO World Heritage Site. Pogradec is the main town on the Albanian shore.",
+        "Life here is slow and lakeside: swimming from small beaches, fish dinners by the water, and the clear springs at Drilon where the lake is fed."
+      ],
+      "highlights": [
+        "The springs and gardens at Drilon",
+        "Lakeside villages of Tushemisht and Lin",
+        "Swimming in the clear lake water in summer",
+        "Fresh lake fish at a waterside restaurant"
+      ],
+      "gettingThere": [
+        "From Tirana: about 3 hours by bus or car.",
+        "From Korçë: about 45 minutes."
+      ],
+      "watchOut": [
+        "The famous Ohrid trout is protected; ask what fish you're being served.",
+        "Accommodation is limited outside summer."
+      ],
+      "book": {
+        "tours": "Pogradec",
+        "stays": "Pogradec, Albania"
+      }
     }
   ]
 }

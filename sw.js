@@ -1,10 +1,10 @@
 // Keeps the site shell and content available offline once visited.
 // Bump VERSION whenever shell files change so visitors get the new copy.
-const VERSION = "udha-v3";
+const VERSION = "udha-v4";
 const SHELL = [
-  "./", "index.html", "place.html", "essentials.html", "itineraries.html",
-  "css/style.css", "js/app.js", "js/config.js", "js/commons.js",
-  "data/places.json", "data/essentials.json", "data/itineraries.json", "manifest.webmanifest", "icons/icon.svg"
+  "/", "/itineraries/", "/getting-around/",
+  "/css/style.css", "/js/app.js", "/js/commons.js",
+  "/manifest.webmanifest", "/icons/icon.svg"
 ];
 
 self.addEventListener("install", (e) => {
@@ -30,6 +30,6 @@ self.addEventListener("fetch", (e) => {
         caches.open(VERSION).then((c) => c.put(e.request, copy));
         return res;
       })
-      .catch(() => caches.match(e.request, { ignoreSearch: /(place|itineraries)\.html$/.test(url.pathname) }))
+      .catch(() => caches.match(e.request))
   );
 });

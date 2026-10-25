@@ -5,6 +5,7 @@
     {
       "id": "3-days",
       "title": "Albania in 3 days",
+      "short": "3 days",
       "tagline": "Tirana and Berat: a capital and a UNESCO old town",
       "summary": "A short first taste that works with a long weekend and Tirana flights. You'll see the country's busy modern face, then slow down in one of its most beautiful old towns. No car needed.",
       "image": "Berat, Mangalem quarter, Albania.JPG",
@@ -15,7 +16,9 @@
         {
           "title": "Arrive in Tirana",
           "base": "Tirana",
-          "places": ["tirana"],
+          "places": [
+            "tirana"
+          ],
           "travel": "Airport to centre: 25–40 minutes",
           "morning": "Land at Tirana International Airport and take the airport bus or an official taxi into the centre. Drop your bags and get your bearings on Skanderbeg Square.",
           "afternoon": "Spend a couple of hours at Bunk'Art 2, a Cold War bunker turned museum a short walk from the square. Then wander past the colourful buildings and the renovated Pyramid.",
@@ -26,7 +29,10 @@
         {
           "title": "Tirana to Berat",
           "base": "Berat",
-          "places": ["berat"],
+          "places": [
+            "dajti",
+            "berat"
+          ],
           "travel": "Bus: about 2–2.5 hours",
           "morning": "Ride the Dajti Ekspres cable car for a view over the city, or browse the New Bazaar for breakfast and coffee. Head to the bus terminal late morning.",
           "afternoon": "Arrive in Berat and check into a guesthouse in the old Mangalem or Gorica quarter. Cross the Gorica footbridge and walk along the river.",
@@ -37,7 +43,9 @@
         {
           "title": "Berat's castle, then back",
           "base": "Tirana",
-          "places": ["berat"],
+          "places": [
+            "berat"
+          ],
           "travel": "Bus back to Tirana: about 2–2.5 hours",
           "morning": "Climb to Berat Castle early, before the heat. People still live inside its walls, among Byzantine churches and the Onufri Museum of icons.",
           "afternoon": "Lunch in the old town, then take an afternoon bus back to Tirana. If you have a flight, allow a good margin for traffic to the airport.",
@@ -50,6 +58,7 @@
     {
       "id": "7-days",
       "title": "Albania in 7 days",
+      "short": "7 days",
       "tagline": "From Tirana to the Riviera through two stone cities",
       "summary": "The classic first trip: the capital, the UNESCO towns of Berat and Gjirokastër, the Blue Eye spring and the best of the Ionian coast. It works by bus, but a rental car gives you more freedom on the coast.",
       "image": "Ksamil Beach.jpg",
@@ -60,7 +69,9 @@
         {
           "title": "Arrive in Tirana",
           "base": "Tirana",
-          "places": ["tirana"],
+          "places": [
+            "tirana"
+          ],
           "travel": "Airport to centre: 25–40 minutes",
           "morning": "Arrive at Tirana International Airport and head into the centre by airport bus or official taxi.",
           "afternoon": "Skanderbeg Square, the National History Museum and Bunk'Art 2 give you the story of the country in an afternoon.",
@@ -71,7 +82,9 @@
         {
           "title": "Tirana to Berat",
           "base": "Berat",
-          "places": ["berat"],
+          "places": [
+            "berat"
+          ],
           "travel": "About 2–2.5 hours by bus or car",
           "morning": "Head south to Berat.",
           "afternoon": "Settle into the old town, cross the Gorica bridge and walk the riverside.",
@@ -82,7 +95,10 @@
         {
           "title": "Berat to Gjirokastër",
           "base": "Gjirokastër",
-          "places": ["berat", "gjirokaster"],
+          "places": [
+            "berat",
+            "gjirokaster"
+          ],
           "travel": "About 3–3.5 hours by car; longer by bus with a change",
           "morning": "Berat Castle and the Onufri Museum before the day warms up.",
           "afternoon": "Travel south to Gjirokastër through the Drino valley.",
@@ -93,7 +109,11 @@
         {
           "title": "Gjirokastër to the coast via the Blue Eye",
           "base": "Ksamil",
-          "places": ["gjirokaster", "blue-eye", "ksamil"],
+          "places": [
+            "gjirokaster",
+            "blue-eye",
+            "ksamil"
+          ],
           "travel": "About 1.5–2 hours driving in total",
           "morning": "Gjirokastër Castle, then a restored tower house such as Skenduli or Zekate.",
           "afternoon": "Stop at the Blue Eye spring on the road to Sarandë, then continue to Ksamil.",
@@ -104,7 +124,9 @@
         {
           "title": "Ksamil and Butrint",
           "base": "Ksamil",
-          "places": ["ksamil"],
+          "places": [
+            "ksamil"
+          ],
           "travel": "Butrint is about 10 minutes from Ksamil",
           "morning": "Visit Butrint early, while it's cool and quiet: the Greek theatre, the baptistery and the Venetian tower.",
           "afternoon": "Beach time, and swim or kayak out to the Ksamil islets.",
@@ -115,7 +137,9 @@
         {
           "title": "Up the Riviera to Himarë",
           "base": "Himarë",
-          "places": ["himare"],
+          "places": [
+            "himare"
+          ],
           "travel": "About 1.5 hours by car or bus",
           "morning": "Drive north along the coast, stopping at Porto Palermo's little fortress.",
           "afternoon": "Beach time at Livadhi or Potami, or hike down to Gjipe beach and its canyon.",
@@ -126,12 +150,168 @@
         {
           "title": "Over the Llogara Pass to Tirana",
           "base": "Tirana",
-          "places": ["himare", "tirana"],
+          "places": [
+            "himare",
+            "llogara",
+            "tirana"
+          ],
           "travel": "About 4–5 hours by car or bus",
           "morning": "A last swim, then up the Llogara Pass for the big view over the Riviera.",
           "afternoon": "Continue via Vlorë back to Tirana, or straight to the airport.",
           "evening": "Final dinner in Tirana.",
           "tip": "The Llogara road is steep with hairpins. Take it slowly and use low gears on the way down.",
+          "stay": "Tirana, Albania"
+        }
+      ]
+    },
+    {
+      "id": "albanian-alps",
+      "title": "The Albanian Alps in 5 days",
+      "short": "Albanian Alps",
+      "tagline": "Lake Koman, Valbona and the hike over the pass to Theth",
+      "summary": "The classic northern loop: a boat ride through a flooded gorge, two high valleys and one of the best day hikes in the Balkans. Best from June to September, when the pass is clear of snow. No car needed; minibuses and guesthouses handle the logistics.",
+      "image": "Scenery at Theth Village - Northern Albania - 19 (40927652580).jpg",
+      "bestFor": "Hikers, nature lovers, active travellers",
+      "transport": "Shared minibuses and the Koman ferry; no car needed",
+      "pace": "Active",
+      "days": [
+        {
+          "title": "Arrive in Shkodër",
+          "base": "Shkodër",
+          "places": [
+            "shkoder"
+          ],
+          "travel": "From Tirana: about 2 hours by bus",
+          "morning": "Travel north from Tirana, or cross from Montenegro.",
+          "afternoon": "Walk the pedestrian old town and visit the Marubi photography museum.",
+          "evening": "Sunset from Rozafa Castle over three rivers and the lake.",
+          "tip": "Ask your guesthouse to book the next morning's Koman ferry transfer and to arrange luggage transport to Theth for day 3.",
+          "stay": "Shkoder, Albania"
+        },
+        {
+          "title": "The Lake Koman ferry to Valbona",
+          "base": "Valbona",
+          "places": [
+            "koman",
+            "valbona"
+          ],
+          "travel": "About 2 hours by minibus, 2.5–3 hours by boat, then 1 hour to Valbona",
+          "morning": "Early pick-up in Shkodër and the drive to the Koman dam.",
+          "afternoon": "The ferry through the gorge to Fierzë, then a minibus up to Valbona.",
+          "evening": "Dinner at your guesthouse and an early night before the hike.",
+          "tip": "Sit on the open deck for the best views, and bring snacks; there's little food on board.",
+          "stay": "Valbona, Albania"
+        },
+        {
+          "title": "Hike Valbona to Theth",
+          "base": "Theth",
+          "places": [
+            "valbona",
+            "theth"
+          ],
+          "travel": "On foot: about 6–8 hours over the Valbona Pass",
+          "morning": "Set off early and climb through beech forest to the Valbona Pass, at around 1,800 m.",
+          "afternoon": "Descend into the Theth valley, with a stop at the café huts on the way down.",
+          "evening": "Arrive in Theth to a hearty guesthouse dinner. You've earned it.",
+          "tip": "Carry at least 2 litres of water, sun protection and a layer. Snow can linger on the pass into June.",
+          "stay": "Theth, Albania"
+        },
+        {
+          "title": "A day in Theth",
+          "base": "Theth",
+          "places": [
+            "theth"
+          ],
+          "travel": "On foot around the valley",
+          "morning": "Walk to the Grunas waterfall and the Lock-in Tower.",
+          "afternoon": "Hike to Theth's Blue Eye pool for a (very cold) swim; allow most of the afternoon for the round trip.",
+          "evening": "Sunset by Theth's church and another home-cooked dinner.",
+          "tip": "There are no ATMs in Theth. Make sure you brought enough cash in lek from Shkodër.",
+          "stay": "Theth, Albania"
+        },
+        {
+          "title": "Back to Shkodër",
+          "base": "Shkodër",
+          "places": [
+            "theth",
+            "shkoder"
+          ],
+          "travel": "About 2.5–3 hours by minibus",
+          "morning": "Take the morning minibus down the newly paved road to Shkodër.",
+          "afternoon": "Cycle to Lake Shkodër or the Mesi Bridge, or continue to Tirana.",
+          "evening": "Celebrate with dinner on Kole Idromeno street.",
+          "tip": "Minibuses out of Theth fill up; reserve your seat through your guesthouse the day before.",
+          "stay": "Shkoder, Albania"
+        }
+      ]
+    },
+    {
+      "id": "south-east",
+      "title": "Lakes and mountains of the south-east in 4 days",
+      "short": "The South-East",
+      "tagline": "Lake Ohrid, Korçë and the frescoed churches of Voskopojë",
+      "summary": "A quieter side of Albania that most visitors miss: an ancient lake, an elegant highland city and a mountain village full of history. Good in spring, summer and early autumn, and very affordable.",
+      "image": [
+        "Korca Old Bazaar (banner).jpg",
+        "Korca Old Bazaar.jpg"
+      ],
+      "bestFor": "Second-time visitors, culture and food, slow travel",
+      "transport": "Buses between towns; a taxi for Voskopojë",
+      "pace": "Relaxed",
+      "days": [
+        {
+          "title": "Tirana to Lake Ohrid",
+          "base": "Pogradec",
+          "places": [
+            "pogradec"
+          ],
+          "travel": "About 3 hours by bus or car",
+          "morning": "Leave Tirana heading east through the mountains.",
+          "afternoon": "Settle into Pogradec and walk the lakeside promenade.",
+          "evening": "Lake fish dinner by the water.",
+          "tip": "Sit on the right-hand side of the bus for lake views as you arrive.",
+          "stay": "Pogradec, Albania"
+        },
+        {
+          "title": "Drilon springs, then on to Korçë",
+          "base": "Korçë",
+          "places": [
+            "pogradec",
+            "korce"
+          ],
+          "travel": "About 45 minutes to Korçë",
+          "morning": "Visit the clear springs and gardens at Drilon, and the lakeside village of Tushemisht.",
+          "afternoon": "Travel to Korçë and wander the restored Old Bazaar.",
+          "evening": "Korça beer and lakror pie in the bazaar.",
+          "tip": "Drilon is about 10 minutes from Pogradec by taxi.",
+          "stay": "Korce, Albania"
+        },
+        {
+          "title": "Voskopojë day trip",
+          "base": "Korçë",
+          "places": [
+            "voskopoje",
+            "korce"
+          ],
+          "travel": "About 30 minutes each way by car or taxi",
+          "morning": "Head up to Voskopojë and visit its frescoed churches.",
+          "afternoon": "Forest walk and a long lunch at a village guesthouse.",
+          "evening": "Back in Korçë, the National Museum of Medieval Art if you haven't seen it, then dinner.",
+          "tip": "Agree a return time with your taxi driver, or ask your guesthouse to call one for you.",
+          "stay": "Korce, Albania"
+        },
+        {
+          "title": "Back to Tirana",
+          "base": "Tirana",
+          "places": [
+            "korce",
+            "tirana"
+          ],
+          "travel": "About 3.5–4 hours by bus or car",
+          "morning": "Visit the Resurrection Cathedral and have a last coffee on the boulevard.",
+          "afternoon": "Travel back to Tirana.",
+          "evening": "Dinner in Blloku.",
+          "tip": "Morning buses are the most reliable; afternoon departures are fewer.",
           "stay": "Tirana, Albania"
         }
       ]
