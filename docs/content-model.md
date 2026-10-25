@@ -14,7 +14,7 @@ Each entry in `places` is one destination.
 | `region` | `north` \| `central` \| `south` | Labels live in `js/config.js`. |
 | `category` | `beaches` \| `mountains` \| `history` \| `cities` \| `nature` | Drives the home page filter. |
 | `coords` | `[lat, lng]` | Used for the coordinates label and the Directions link. |
-| `image` | string | Wikimedia Commons file name (without `File:`). The hero and card photo. |
+| `image` | string or string[] | Wikimedia Commons file name (without `File:`), or a list of candidates, best first. The site uses the first one that is high-resolution enough, so listing backups avoids pixelated photos. |
 | `gallery` | string[] | Optional extra Commons file names. |
 | `bestTime` | string | When to go. |
 | `days` | string | How long to spend. |

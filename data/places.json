@@ -105,7 +105,12 @@
       "region": "south",
       "category": "history",
       "coords": [40.0758, 20.1389],
-      "image": "Gjirokastra.jpg",
+      "image": [
+        "Gjirokastёr (by Pudelek).JPG",
+        "Rruga Gjin Zenebisi - Gjirokastër old town.jpg",
+        "Kalaja - Gjirokaster.jpg",
+        "Gjirokastra.jpg"
+      ],
       "bestTime": "April–June and September–October",
       "days": "1–2 days",
       "summary": [
@@ -166,7 +171,12 @@
       "region": "central",
       "category": "cities",
       "coords": [41.3275, 19.8187],
-      "image": "Skanderbeg Square in Tirana.jpg",
+      "image": [
+        "Skanderbeg Square, Tirana (49593920957).jpg",
+        "Clocktower with Mosque Minaret and Apartment Facade - Skanderbeg Square - Tirana - Albania (40987352950).jpg",
+        "Tirana - Skanderbeg Square (Sheshi Skënderbej) - by Pudelek.jpg",
+        "Skanderbeg Square in Tirana.jpg"
+      ],
       "bestTime": "All year; spring and autumn are most comfortable",
       "days": "1–2 days",
       "summary": [
