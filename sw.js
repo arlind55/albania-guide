@@ -1,6 +1,6 @@
 // Keeps the site shell and content available offline once visited.
 // Bump VERSION whenever shell files change so visitors get the new copy.
-const VERSION = "udha-v4";
+const VERSION = "udha-v5";
 const SHELL = [
   "/", "/itineraries/", "/getting-around/",
   "/css/style.css", "/js/app.js", "/js/commons.js",
