@@ -20,8 +20,11 @@ function categoryLabel(id) {
   return CATEGORIES.find((c) => c.id === id)?.label ?? id;
 }
 
+// A photo is one Commons file name or a list of candidates, best first.
+const photoKey = (photo) => (Array.isArray(photo) ? photo.join("|") : photo);
+
 function plate(file, { width = 1600, alt = "", eager = false } = {}) {
-  return `<figure class="plate" data-photo="${esc(file)}" data-width="${width}">
+  return `<figure class="plate" data-photo="${esc(photoKey(file))}" data-width="${width}">
     <img alt="${esc(alt)}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">
     <figcaption class="credit"></figcaption>
   </figure>`;
@@ -141,7 +144,7 @@ async function initPlace() {
   const nearby = places.filter((q) => q.region === p.region && q.id !== p.id).slice(0, 3);
 
   $("#place").innerHTML = `
-    <section class="plate place-hero" data-photo="${esc(p.image)}" data-width="2000">
+    <section class="plate place-hero" data-photo="${esc(photoKey(p.image))}" data-width="2000">
       <img alt="${esc(p.name)}" fetchpriority="high" decoding="async">
       <figcaption class="credit"></figcaption>
       <div class="hero-copy"><div class="wrap">
@@ -262,7 +265,7 @@ async function initItineraries() {
   };
 
   $("#trip").innerHTML = `
-    <section class="plate trip-hero" data-photo="${esc(trip.image)}" data-width="2000">
+    <section class="plate trip-hero" data-photo="${esc(photoKey(trip.image))}" data-width="2000">
       <img alt="${esc(trip.title)}" fetchpriority="high" decoding="async">
       <figcaption class="credit"></figcaption>
       <div class="hero-copy"><div class="wrap">
