@@ -42,6 +42,8 @@ With these in place, `udhaguide.com` redirects to `www.udhaguide.com`. Then tick
 - Getting around: `data/essentials.json`
 - Site name and affiliate IDs: `js/config.js`
 
+After adding places or itineraries, run `python3 scripts/build_sitemap.py` so Google finds the new pages.
+
 See [docs/content-model.md](docs/content-model.md) for every field, and [docs/app-roadmap.md](docs/app-roadmap.md) for the plan to move to iOS and Android.
 
 Photos are hotlinked from Wikimedia Commons and credited automatically on each image.
