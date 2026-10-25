@@ -4,7 +4,7 @@ export const CONFIG = {
   siteName: "Udha",
   tagline: "Your guide to Albania",
   affiliates: {
-    getyourguide: { partnerId: "" },
+    getyourguide: { partnerId: "BAEOBWP" },
     booking: { aid: "" }
   }
 };
