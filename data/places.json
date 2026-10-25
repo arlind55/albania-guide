@@ -707,7 +707,8 @@
       "book": {
         "tours": "Voskopoje",
         "stays": "Voskopoje, Albania"
-      }
+      },
+      "tourWidget": false
     },
     {
       "id": "pogradec",
@@ -747,7 +748,8 @@
       "book": {
         "tours": "Pogradec",
         "stays": "Pogradec, Albania"
-      }
+      },
+      "tourWidget": false
     }
   ]
 }

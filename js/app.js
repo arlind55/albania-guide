@@ -45,7 +45,26 @@ function initDayNav() {
   setActive("day-1");
 }
 
+/* ---------- Place: load the GetYourGuide tours widget when it comes near the screen ---------- */
+function initTourWidget() {
+  const widget = document.querySelector(".tours-widget");
+  if (!widget) return;
+  const load = () => {
+    const script = document.createElement("script");
+    script.src = "https://widget.getyourguide.com/dist/pa.umd.production.min.js";
+    script.async = true;
+    script.dataset.gygPartnerId = widget.dataset.gygPartnerId;
+    document.body.append(script);
+  };
+  if (!("IntersectionObserver" in window)) return load();
+  const observer = new IntersectionObserver((entries) => {
+    if (entries.some((e) => e.isIntersecting)) { observer.disconnect(); load(); }
+  }, { rootMargin: "600px 0px" });
+  observer.observe(widget);
+}
+
 if (page === "home") initFilter();
+if (page === "place") initTourWidget();
 if (page === "trip") initDayNav();
 hydratePhotos();
 

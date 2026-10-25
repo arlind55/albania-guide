@@ -145,6 +145,18 @@ export function homeMain(places, itineraries) {
     </section>`;
 }
 
+// GetYourGuide's live tour list for a place. app.js loads their script only when the
+// section scrolls near the screen, so it doesn't slow down the first view of the page.
+function tourWidget(p) {
+  const partner = CONFIG.affiliates.getyourguide.partnerId;
+  if (!partner || p.tourWidget === false) return "";
+  return `<section class="tours" aria-labelledby="tours-title">
+          <h2 id="tours-title">Popular tours near ${esc(p.name)}</h2>
+          <div class="tours-widget" data-gyg-href="https://widget.getyourguide.com/default/activites.frame" data-gyg-locale-code="en-US" data-gyg-widget="activities" data-gyg-number-of-items="3" data-gyg-partner-id="${esc(partner)}" data-gyg-q="${esc(p.book.tours)}"></div>
+          <p class="fineprint">Tours from GetYourGuide. We may earn a small commission if you book, at no extra cost to you.</p>
+        </section>`;
+}
+
 /* ---------- Place ---------- */
 export function placeMain(p, places, itineraries) {
   const index = places.indexOf(p);
@@ -179,6 +191,7 @@ export function placeMain(p, places, itineraries) {
         <section><h2>Don't miss in ${esc(p.name)}</h2><ul class="list">${p.highlights.map((h) => `<li>${esc(h)}</li>`).join("")}</ul></section>
         <section><h2>How to get to ${esc(p.name)}</h2><ul class="list steps">${p.gettingThere.map((h) => `<li>${esc(h)}</li>`).join("")}</ul></section>
         <section class="caution"><h2>Watch out for</h2><ul class="list">${p.watchOut.map((h) => `<li>${esc(h)}</li>`).join("")}</ul></section>
+        ${tourWidget(p)}
         ${p.gallery?.length ? `<section class="gallery">${p.gallery.map((g) => plate(g, { width: 1400, alt: p.name })).join("")}</section>` : ""}
         ${trips.length ? `<section><h2>Itineraries that include ${esc(p.name)}</h2><ul class="list">${trips.map((t) => `<li><a href="${tripUrl(t.id)}">${esc(t.title)}</a></li>`).join("")}</ul></section>` : ""}
       </article>
