@@ -51,6 +51,7 @@ function header(current, solid) {
       <a class="wordmark" href="./">${esc(CONFIG.siteName)} <small>${esc(CONFIG.tagline)}</small></a>
       <nav class="site-nav" aria-label="Main">
         ${link("./#places", "Places", "places")}
+        ${link("itineraries.html", "Itineraries", "itineraries")}
         ${link("essentials.html", "Getting around", "essentials")}
       </nav>
     </div>
@@ -102,6 +103,16 @@ async function initHome() {
     grid.innerHTML = shown.length ? shown.map(card).join("") : `<p class="empty">Nothing here yet.</p>`;
     hydratePhotos(grid);
   };
+  loadJSON("data/itineraries.json").then(({ itineraries }) => {
+    $("#trips").innerHTML = itineraries.map((t) => `<a class="card" href="itineraries.html?trip=${encodeURIComponent(t.id)}">
+      ${plate(t.image, { width: 1000, alt: t.title })}
+      <div class="meta"><span class="eyebrow">${t.days.length} days · ${esc(t.pace)}</span></div>
+      <h3>${esc(t.title)}</h3>
+      <p>${esc(t.tagline)}</p>
+    </a>`).join("");
+    hydratePhotos($("#trips"));
+  });
+
   chips.addEventListener("click", (e) => {
     const btn = e.target.closest("[data-cat]");
     if (!btn) return;
@@ -207,7 +218,103 @@ async function initEssentials() {
   if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
 }
 
-const pages = { home: initHome, place: initPlace, essentials: initEssentials };
+/* ---------- Itineraries ---------- */
+async function initItineraries() {
+  const [{ itineraries }, { places }] = await Promise.all([loadJSON("data/itineraries.json"), loadJSON("data/places.json")]);
+  const wanted = new URLSearchParams(location.search).get("trip");
+  const trip = itineraries.find((t) => t.id === wanted) || itineraries[0];
+  const placeById = Object.fromEntries(places.map((p) => [p.id, p]));
+  document.title = `${trip.title} · ${CONFIG.siteName}`;
+  $("meta[name=description]")?.setAttribute("content", trip.tagline);
+
+  $("#header").innerHTML = header("itineraries", false);
+  $("#footer").innerHTML = footer();
+
+  const tabs = itineraries.map((t) =>
+    `<a href="itineraries.html?trip=${encodeURIComponent(t.id)}"${t.id === trip.id ? ' aria-current="page"' : ""}>${esc(t.title.replace(/^Albania in /, ""))}</a>`
+  ).join("");
+  const others = itineraries.filter((t) => t.id !== trip.id);
+
+  const dayHtml = (d, i) => {
+    const stops = d.places.map((id) => placeById[id]).filter(Boolean);
+    const photo = stops[stops.length - 1]?.image;
+    const stays = new URL("https://www.booking.com/searchresults.html");
+    stays.searchParams.set("ss", d.stay);
+    if (CONFIG.affiliates.booking.aid) stays.searchParams.set("aid", CONFIG.affiliates.booking.aid);
+    return `<section class="day" id="day-${i + 1}" aria-labelledby="day-${i + 1}-title">
+      <div class="day-head">
+        <p class="eyebrow">Day ${i + 1} · Overnight in ${esc(d.base)}</p>
+        <h2 id="day-${i + 1}-title">${esc(d.title)}</h2>
+        <p class="day-travel coords">${esc(d.travel)}</p>
+      </div>
+      ${photo ? plate(photo, { width: 1400, alt: stops[stops.length - 1].name }) : ""}
+      <dl class="dayparts">
+        <div><dt>Morning</dt><dd>${esc(d.morning)}</dd></div>
+        <div><dt>Afternoon</dt><dd>${esc(d.afternoon)}</dd></div>
+        <div><dt>Evening</dt><dd>${esc(d.evening)}</dd></div>
+      </dl>
+      <p class="day-tip"><strong>Tip:</strong> ${esc(d.tip)}</p>
+      <div class="day-links">
+        ${stops.map((p) => `<a class="btn" href="place.html?id=${encodeURIComponent(p.id)}">${esc(p.name)} guide <span>→</span></a>`).join("")}
+        <a class="btn primary" href="${stays.toString()}" target="_blank" rel="sponsored noopener">Stays in ${esc(d.base)} <span>Booking.com ↗</span></a>
+      </div>
+    </section>`;
+  };
+
+  $("#trip").innerHTML = `
+    <section class="plate trip-hero" data-photo="${esc(trip.image)}" data-width="2000">
+      <img alt="${esc(trip.title)}" fetchpriority="high" decoding="async">
+      <figcaption class="credit"></figcaption>
+      <div class="hero-copy"><div class="wrap">
+        <p class="eyebrow">Itinerary · ${trip.days.length} days</p>
+        <h1>${esc(trip.title)}</h1>
+        <p>${esc(trip.tagline)}</p>
+        <nav class="trip-tabs" aria-label="Choose an itinerary">${tabs}</nav>
+      </div></div>
+    </section>
+
+    <section class="facts"><div class="wrap">
+      <dl>
+        <div><dt>Best for</dt><dd>${esc(trip.bestFor)}</dd></div>
+        <div><dt>Getting around</dt><dd>${esc(trip.transport)}</dd></div>
+        <div><dt>Pace</dt><dd>${esc(trip.pace)}</dd></div>
+        <div><dt>Route</dt><dd>${trip.days.map((d) => d.base).filter((b, i, all) => b !== all[i - 1]).map(esc).join(" → ")}</dd></div>
+      </dl>
+    </div></section>
+
+    <div class="wrap trip-body">
+      <nav class="day-nav" aria-label="Days">
+        <p class="eyebrow">Day by day</p>
+        <ol>${trip.days.map((d, i) => `<li><a href="#day-${i + 1}"><strong>Day ${i + 1}</strong><span>${esc(d.title)}</span></a></li>`).join("")}</ol>
+        ${others.map((t) => `<p class="other">${t.days.length > trip.days.length ? "Got more time?" : "Short on time?"} <a href="itineraries.html?trip=${encodeURIComponent(t.id)}">${esc(t.title)}</a></p>`).join("")}
+      </nav>
+      <div class="days">
+        <p class="trip-lede">${esc(trip.summary)}</p>
+        ${trip.days.map(dayHtml).join("")}
+      </div>
+    </div>`;
+
+  // Highlight the day currently on screen in the left-hand menu.
+  const links = [...document.querySelectorAll(".day-nav a")];
+  const setActive = (id) => links.forEach((a) => {
+    const on = a.getAttribute("href") === `#${id}`;
+    a.setAttribute("aria-current", on ? "true" : "false");
+    if (on && matchMedia("(max-width: 820px)").matches) {
+      a.parentElement.parentElement.scrollTo({ left: a.parentElement.offsetLeft - 16, behavior: "smooth" });
+    }
+  });
+  const observer = new IntersectionObserver((entries) => {
+    const visible = entries.filter((e) => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+    if (visible[0]) setActive(visible[0].target.id);
+  }, { rootMargin: "-20% 0px -60% 0px" });
+  document.querySelectorAll(".day").forEach((el) => observer.observe(el));
+  setActive("day-1");
+
+  if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+  hydratePhotos();
+}
+
+const pages = { home: initHome, place: initPlace, essentials: initEssentials, itineraries: initItineraries };
 pages[document.body.dataset.page]?.().catch((err) => {
   console.error(err);
   const main = $("main");

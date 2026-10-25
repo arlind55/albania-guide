@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "updated": "2026-10-25",
+  "itineraries": [
+    {
+      "id": "3-days",
+      "title": "Albania in 3 days",
+      "tagline": "Tirana and Berat: a capital and a UNESCO old town",
+      "summary": "A short first taste that works with a long weekend and Tirana flights. You'll see the country's busy modern face, then slow down in one of its most beautiful old towns. No car needed.",
+      "image": "Berat, Mangalem quarter, Albania.JPG",
+      "bestFor": "Long weekends, city breaks, first taste",
+      "transport": "Bus or taxi; no car needed",
+      "pace": "Relaxed",
+      "days": [
+        {
+          "title": "Arrive in Tirana",
+          "base": "Tirana",
+          "places": ["tirana"],
+          "travel": "Airport to centre: 25–40 minutes",
+          "morning": "Land at Tirana International Airport and take the airport bus or an official taxi into the centre. Drop your bags and get your bearings on Skanderbeg Square.",
+          "afternoon": "Spend a couple of hours at Bunk'Art 2, a Cold War bunker turned museum a short walk from the square. Then wander past the colourful buildings and the renovated Pyramid.",
+          "evening": "Dinner and drinks in Blloku, the former communist leaders' quarter, now the city's liveliest neighbourhood.",
+          "tip": "Get some lek from an ATM at the airport or in town; small cafés and taxis prefer cash.",
+          "stay": "Tirana, Albania"
+        },
+        {
+          "title": "Tirana to Berat",
+          "base": "Berat",
+          "places": ["berat"],
+          "travel": "Bus: about 2–2.5 hours",
+          "morning": "Ride the Dajti Ekspres cable car for a view over the city, or browse the New Bazaar for breakfast and coffee. Head to the bus terminal late morning.",
+          "afternoon": "Arrive in Berat and check into a guesthouse in the old Mangalem or Gorica quarter. Cross the Gorica footbridge and walk along the river.",
+          "evening": "Watch the evening light on the 'thousand windows' from the Gorica side, then have dinner with local wine.",
+          "tip": "Ask your Tirana accommodation which terminal Berat buses leave from that day.",
+          "stay": "Berat, Albania"
+        },
+        {
+          "title": "Berat's castle, then back",
+          "base": "Tirana",
+          "places": ["berat"],
+          "travel": "Bus back to Tirana: about 2–2.5 hours",
+          "morning": "Climb to Berat Castle early, before the heat. People still live inside its walls, among Byzantine churches and the Onufri Museum of icons.",
+          "afternoon": "Lunch in the old town, then take an afternoon bus back to Tirana. If you have a flight, allow a good margin for traffic to the airport.",
+          "evening": "A last stroll along Tirana's Lana river and a final byrek or tavë kosi.",
+          "tip": "With an extra half day, a guided trip to the Osum Canyon or a family winery near Berat is well worth it.",
+          "stay": "Tirana, Albania"
+        }
+      ]
+    },
+    {
+      "id": "7-days",
+      "title": "Albania in 7 days",
+      "tagline": "From Tirana to the Riviera through two stone cities",
+      "summary": "The classic first trip: the capital, the UNESCO towns of Berat and Gjirokastër, the Blue Eye spring and the best of the Ionian coast. It works by bus, but a rental car gives you more freedom on the coast.",
+      "image": "Ksamil Beach.jpg",
+      "bestFor": "First-time visitors, mix of culture and beaches",
+      "transport": "Buses work; a rental car is easier on the coast",
+      "pace": "Moderate",
+      "days": [
+        {
+          "title": "Arrive in Tirana",
+          "base": "Tirana",
+          "places": ["tirana"],
+          "travel": "Airport to centre: 25–40 minutes",
+          "morning": "Arrive at Tirana International Airport and head into the centre by airport bus or official taxi.",
+          "afternoon": "Skanderbeg Square, the National History Museum and Bunk'Art 2 give you the story of the country in an afternoon.",
+          "evening": "Dinner in Blloku.",
+          "tip": "If you're renting a car, pick it up on day 2 rather than driving in Tirana traffic straight off the plane.",
+          "stay": "Tirana, Albania"
+        },
+        {
+          "title": "Tirana to Berat",
+          "base": "Berat",
+          "places": ["berat"],
+          "travel": "About 2–2.5 hours by bus or car",
+          "morning": "Head south to Berat.",
+          "afternoon": "Settle into the old town, cross the Gorica bridge and walk the riverside.",
+          "evening": "Sunset over the Mangalem windows, then dinner with local wine.",
+          "tip": "Driving? Stop at a winery on the way in; the Berat area is Albania's best-known wine region.",
+          "stay": "Berat, Albania"
+        },
+        {
+          "title": "Berat to Gjirokastër",
+          "base": "Gjirokastër",
+          "places": ["berat", "gjirokaster"],
+          "travel": "About 3–3.5 hours by car; longer by bus with a change",
+          "morning": "Berat Castle and the Onufri Museum before the day warms up.",
+          "afternoon": "Travel south to Gjirokastër through the Drino valley.",
+          "evening": "Wander the stone lanes of the old bazaar and eat in a traditional restaurant.",
+          "tip": "Buses stop in the new town. Take a short taxi up the hill to the old town with your bags.",
+          "stay": "Gjirokaster, Albania"
+        },
+        {
+          "title": "Gjirokastër to the coast via the Blue Eye",
+          "base": "Ksamil",
+          "places": ["gjirokaster", "blue-eye", "ksamil"],
+          "travel": "About 1.5–2 hours driving in total",
+          "morning": "Gjirokastër Castle, then a restored tower house such as Skenduli or Zekate.",
+          "afternoon": "Stop at the Blue Eye spring on the road to Sarandë, then continue to Ksamil.",
+          "evening": "First swim and a seafood dinner by the water.",
+          "tip": "By bus, take a Sarandë-bound service, get off at the Blue Eye turn-off and walk about 2 km in; then flag a later bus or taxi.",
+          "stay": "Ksamil, Albania"
+        },
+        {
+          "title": "Ksamil and Butrint",
+          "base": "Ksamil",
+          "places": ["ksamil"],
+          "travel": "Butrint is about 10 minutes from Ksamil",
+          "morning": "Visit Butrint early, while it's cool and quiet: the Greek theatre, the baptistery and the Venetian tower.",
+          "afternoon": "Beach time, and swim or kayak out to the Ksamil islets.",
+          "evening": "Sunset drinks on Sarandë's promenade, looking across to Corfu.",
+          "tip": "In July and August, book your sunbeds and dinner tables early.",
+          "stay": "Ksamil, Albania"
+        },
+        {
+          "title": "Up the Riviera to Himarë",
+          "base": "Himarë",
+          "places": ["himare"],
+          "travel": "About 1.5 hours by car or bus",
+          "morning": "Drive north along the coast, stopping at Porto Palermo's little fortress.",
+          "afternoon": "Beach time at Livadhi or Potami, or hike down to Gjipe beach and its canyon.",
+          "evening": "Climb to Himarë's old village for sunset, then fish by the harbour.",
+          "tip": "Coastal buses are frequent in summer but sparse from October to May. Check times locally.",
+          "stay": "Himare, Albania"
+        },
+        {
+          "title": "Over the Llogara Pass to Tirana",
+          "base": "Tirana",
+          "places": ["himare", "tirana"],
+          "travel": "About 4–5 hours by car or bus",
+          "morning": "A last swim, then up the Llogara Pass for the big view over the Riviera.",
+          "afternoon": "Continue via Vlorë back to Tirana, or straight to the airport.",
+          "evening": "Final dinner in Tirana.",
+          "tip": "The Llogara road is steep with hairpins. Take it slowly and use low gears on the way down.",
+          "stay": "Tirana, Albania"
+        }
+      ]
+    }
+  ]
+}
