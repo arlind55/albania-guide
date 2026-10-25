@@ -152,7 +152,8 @@ function tourWidget(p) {
   if (!partner || p.tourWidget === false) return "";
   return `<section class="tours" aria-labelledby="tours-title">
           <h2 id="tours-title">Popular tours near ${esc(p.name)}</h2>
-          <div class="tours-widget" data-gyg-href="https://widget.getyourguide.com/default/activites.frame" data-gyg-locale-code="en-US" data-gyg-widget="activities" data-gyg-number-of-items="3" data-gyg-partner-id="${esc(partner)}" data-gyg-q="${esc(p.book.tours)}"></div>
+          <div class="tours-widget" data-gyg-href="https://widget.getyourguide.com/default/activities.frame" data-gyg-locale-code="en-US" data-gyg-widget="activities" data-gyg-number-of-items="3" data-gyg-partner-id="${esc(partner)}" data-gyg-q="${esc(p.book.tours)}"></div>
+          <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="${esc(partner)}"></script>
           <p class="fineprint">Tours from GetYourGuide. We may earn a small commission if you book, at no extra cost to you.</p>
         </section>`;
 }
