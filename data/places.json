@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "updated": "2026-10-25",
+  "places": [
+    {
+      "id": "ksamil",
+      "name": "Ksamil & Butrint",
+      "tagline": "Turquoise coves and a 2,500-year-old city on the same afternoon",
+      "region": "south",
+      "category": "beaches",
+      "coords": [39.7686, 20.0011],
+      "image": "Ksamil Beach.jpg",
+      "gallery": ["Amphitheatre of Butrint 2009.jpg"],
+      "bestTime": "June and September (July–August is very crowded)",
+      "days": "2–3 days",
+      "summary": [
+        "Ksamil is the postcard Albania most people picture: shallow, impossibly clear water and three small wooded islets you can swim or paddle out to. It sits at the very southern tip of the Albanian Riviera, a short hop from Sarandë and within sight of Corfu.",
+        "Ten minutes further south is Butrint, a UNESCO World Heritage Site where Greek, Roman, Byzantine and Venetian ruins sit in a forest beside a lagoon. Go early or late in the day, when the light is soft and the tour groups have gone."
+      ],
+      "highlights": [
+        "Swim or kayak out to the Ksamil islets",
+        "Walk the Greek theatre, baptistery and Venetian tower at Butrint",
+        "Mussel farms and seafood lunches on Lake Butrint",
+        "Sunset over Corfu from the Sarandë promenade"
+      ],
+      "gettingThere": [
+        "From Corfu: fast ferries to Sarandë take around 30–40 minutes, then 20 minutes by bus or taxi to Ksamil. This is the easiest way in for many first-time visitors.",
+        "From Tirana: buses to Sarandë take roughly 5–6 hours. Local buses run Sarandë → Ksamil → Butrint throughout the day in summer.",
+        "By car: the coastal road via Vlorë and the Llogara Pass is beautiful but slow; the inland route via Gjirokastër is faster."
+      ],
+      "watchOut": [
+        "Most of the beach is covered with paid sunbeds in summer. A day bed is normal; free patches fill up early.",
+        "July and August bring heavy traffic and prices to match. Book stays well ahead.",
+        "Build quality and noise vary a lot between apartments; read recent reviews."
+      ],
+      "book": { "tours": "Butrint", "stays": "Ksamil, Albania" }
+    },
+    {
+      "id": "himare",
+      "name": "Himarë",
+      "tagline": "The Riviera's laid-back heart, with a castle on the hill",
+      "region": "south",
+      "category": "beaches",
+      "coords": [40.1017, 19.7447],
+      "image": "Himara 2021.jpg",
+      "bestTime": "Late May to early October",
+      "days": "2–4 days",
+      "summary": [
+        "Himarë is the most relaxed base on the Albanian Riviera: a small town strung along a bay, a choice of pebble beaches within walking distance, and an old hilltop village with views down the Ionian coast.",
+        "It's a great hub for beach-hopping. Livadhi and Potami are close by, while Gjipe, a beach at the mouth of a canyon, and the little fortress at Porto Palermo are short drives away."
+      ],
+      "highlights": [
+        "Sunset from Himarë Castle and the old village",
+        "Hike or take a boat to Gjipe beach and its canyon",
+        "Ali Pasha's fortress at Porto Palermo",
+        "Fresh fish at the harbour tavernas"
+      ],
+      "gettingThere": [
+        "From Tirana: buses heading down the coast to Sarandë stop in Himarë; allow 4–5 hours.",
+        "By car from Vlorë: over the Llogara Pass, around 1.5–2 hours with stops. The views from the pass are among the best in the country.",
+        "From Sarandë: about 1.5 hours north by bus or car."
+      ],
+      "watchOut": [
+        "Beaches are pebbly. Water shoes make life much easier.",
+        "Coastal buses are frequent in summer but thin out sharply from October to May.",
+        "The Llogara road is steep with hairpins; take it slowly and use low gears on the way down."
+      ],
+      "book": { "tours": "Himare", "stays": "Himare, Albania" }
+    },
+    {
+      "id": "blue-eye",
+      "name": "The Blue Eye",
+      "tagline": "A bottomless spring of impossible blue",
+      "region": "south",
+      "category": "nature",
+      "coords": [39.9236, 20.1925],
+      "image": "Syri i kalter (The Blue Eye), Albania, September 2022 08.jpg",
+      "bestTime": "Any time of year; early morning to beat the crowds",
+      "days": "Half a day",
+      "summary": [
+        "Syri i Kaltër, the Blue Eye, is a karst spring where water wells up from a depth divers have never fully reached. The centre glows deep blue, fading to turquoise at the edges, framed by oak and plane trees.",
+        "It makes an easy stop between Sarandë and Gjirokastër, and is one of the most photographed places in the country."
+      ],
+      "highlights": [
+        "The viewing platform over the spring at first light",
+        "The short forest walk along the river from the car park",
+        "Combine with Gjirokastër or Sarandë in a day"
+      ],
+      "gettingThere": [
+        "From Sarandë: around 30–40 minutes by car.",
+        "By bus: Sarandë–Gjirokastër buses can drop you at the turn-off, then it's a walk of about 2 km.",
+        "Many Sarandë and Ksamil tours combine the Blue Eye with Gjirokastër."
+      ],
+      "watchOut": [
+        "Swimming and jumping into the spring are not allowed to protect it. Follow the signs.",
+        "The water is about 10 °C all year.",
+        "There's a small entrance and parking fee; bring cash in lek."
+      ],
+      "book": { "tours": "Blue Eye Albania", "stays": "Saranda, Albania" }
+    },
+    {
+      "id": "gjirokaster",
+      "name": "Gjirokastër",
+      "tagline": "The City of Stone, under a giant fortress",
+      "region": "south",
+      "category": "history",
+      "coords": [40.0758, 20.1389],
+      "image": "Gjirokastra.jpg",
+      "bestTime": "April–June and September–October",
+      "days": "1–2 days",
+      "summary": [
+        "Gjirokastër's Ottoman-era tower houses, roofed in grey stone slabs, climb the slopes below one of the largest castles in the Balkans. The old town is a UNESCO World Heritage Site and feels unlike anywhere else in Albania.",
+        "It's also the birthplace of novelist Ismail Kadare, whose childhood home is now a museum, and of communist leader Enver Hoxha."
+      ],
+      "highlights": [
+        "Gjirokastër Castle and its views over the Drino valley",
+        "Restored tower houses such as Skenduli and Zekate",
+        "The old bazaar's stone lanes and craft shops",
+        "The Cold War tunnel under the castle hill"
+      ],
+      "gettingThere": [
+        "From Tirana: buses take around 3.5–4 hours.",
+        "From Sarandë: about 1–1.5 hours by bus or car, passing the Blue Eye.",
+        "Buses stop in the new town at the bottom of the hill. A short taxi ride up saves a steep climb with luggage."
+      ],
+      "watchOut": [
+        "The polished stone streets are very slippery, especially when wet. Wear shoes with grip.",
+        "Parking in the old town is tight; leave the car lower down if you can."
+      ],
+      "book": { "tours": "Gjirokaster", "stays": "Gjirokaster, Albania" }
+    },
+    {
+      "id": "berat",
+      "name": "Berat",
+      "tagline": "The city of a thousand windows",
+      "region": "central",
+      "category": "history",
+      "coords": [40.7058, 19.9522],
+      "image": "Berat, Mangalem quarter, Albania.JPG",
+      "bestTime": "April–June and September–October",
+      "days": "1–2 days",
+      "summary": [
+        "White Ottoman houses stacked up the hillside give Berat its nickname, and its windows face the Osum river and the Gorica quarter on the other bank. Together with Gjirokastër it's a UNESCO World Heritage Site.",
+        "People still live inside the hilltop castle, among Byzantine churches and the Onufri Museum of icons. The surrounding hills are Albania's best-known wine country."
+      ],
+      "highlights": [
+        "Watch the evening light on the Mangalem quarter from Gorica bridge",
+        "Wander the lived-in castle and the Onufri Museum",
+        "A day trip to the Osum Canyon",
+        "Wine tasting at a family winery nearby"
+      ],
+      "gettingThere": [
+        "From Tirana: buses take around 2–2.5 hours.",
+        "Berat is an easy stop between Tirana and the south coast if you're driving."
+      ],
+      "watchOut": [
+        "The walk up to the castle is steep and cobbled; go early or late in summer heat.",
+        "Osum Canyon rafting is best in spring when the river is high."
+      ],
+      "book": { "tours": "Berat", "stays": "Berat, Albania" }
+    },
+    {
+      "id": "tirana",
+      "name": "Tirana",
+      "tagline": "Colourful, chaotic and the place most trips begin",
+      "region": "central",
+      "category": "cities",
+      "coords": [41.3275, 19.8187],
+      "image": "Skanderbeg Square in Tirana.jpg",
+      "bestTime": "All year; spring and autumn are most comfortable",
+      "days": "1–2 days",
+      "summary": [
+        "Albania's capital is loud, friendly and fast-changing. Painted apartment blocks, café-lined boulevards and the Blloku district, once reserved for the communist elite, now packed with bars, make it an easy place to start.",
+        "Two Cold War bunkers turned museums, Bunk'Art 1 and 2, are the best introduction to the country's recent history."
+      ],
+      "highlights": [
+        "Skanderbeg Square and the National History Museum",
+        "Bunk'Art 1 and 2",
+        "Food and coffee in Blloku and the New Bazaar",
+        "The Dajti Ekspres cable car up Mount Dajti"
+      ],
+      "gettingThere": [
+        "Tirana International Airport (TIA) is about 17 km north-west of the centre. The airport bus runs into the city roughly hourly; taxis take 25–40 minutes depending on traffic.",
+        "Most intercity buses now use the North–South bus terminal on the western side of the city, but some minibuses still leave from other stops. Check with your accommodation the day before."
+      ],
+      "watchOut": [
+        "Traffic is heavy at rush hour. Allow extra time to reach the airport.",
+        "With airport taxis, use the official rank and confirm the fare before you get in."
+      ],
+      "book": { "tours": "Tirana", "stays": "Tirana, Albania" }
+    },
+    {
+      "id": "shkoder",
+      "name": "Shkodër",
+      "tagline": "Lakeside city and gateway to the Albanian Alps",
+      "region": "north",
+      "category": "cities",
+      "coords": [42.0683, 19.5126],
+      "image": "Rozafat - Shkoder, Albania.jpg",
+      "bestTime": "May–October",
+      "days": "1–2 days",
+      "summary": [
+        "Shkodër is northern Albania's cultural capital, a city of bicycles, photography and Catholic and Muslim heritage side by side, set beside the largest lake in the Balkans.",
+        "Most travellers pass through on the way to Theth, Valbona or the Koman ferry, but it's worth a night of its own."
+      ],
+      "highlights": [
+        "Rozafa Castle and its legend, with views over three rivers",
+        "The Marubi National Museum of Photography",
+        "Cycling to Lake Shkodër or the Ottoman-era Mesi Bridge",
+        "Evening walk along the pedestrian Kole Idromeno street"
+      ],
+      "gettingThere": [
+        "From Tirana: about 2 hours by bus or minibus.",
+        "From Montenegro: buses run from Ulcinj, Podgorica and Budva."
+      ],
+      "watchOut": [
+        "Minibuses to Theth and the Koman ferry leave very early, often around 6:30–7:00. Your guesthouse can book a seat and arrange pick-up.",
+        "Withdraw cash here before heading into the mountains."
+      ],
+      "book": { "tours": "Shkoder", "stays": "Shkoder, Albania" }
+    },
+    {
+      "id": "koman",
+      "name": "Lake Koman Ferry",
+      "tagline": "A fjord-like boat ride through the mountains",
+      "region": "north",
+      "category": "nature",
+      "coords": [42.1065, 19.8247],
+      "image": "Lake Koman Albania 2016.jpg",
+      "bestTime": "Roughly May to October, when the ferries run daily",
+      "days": "1 day (as part of a loop)",
+      "summary": [
+        "Lake Koman is a flooded river gorge, and the ferry from Koman to Fierzë winds for about 2.5–3 hours between sheer green walls. It's often called one of the most beautiful boat journeys in Europe.",
+        "Most people use it as part of a classic loop: Shkodër → Koman ferry → Valbona → hike over the pass to Theth → back to Shkodër."
+      ],
+      "highlights": [
+        "The narrowest part of the gorge, a couple of hours in",
+        "Combining the ferry with the Valbona to Theth hike",
+        "Small farms only reachable by water along the way"
+      ],
+      "gettingThere": [
+        "Shared minibuses leave Shkodër around 6:30 for Koman, about 2 hours, timed to meet the morning ferry.",
+        "At Fierzë, minibuses wait to take passengers on to Valbona."
+      ],
+      "watchOut": [
+        "Schedules and operators change each season. Book through your Shkodër guesthouse or hostel the night before.",
+        "You can bring a car on some boats, but space is very limited and must be reserved.",
+        "The road to Koman is narrow and winding; it's easier to let someone else drive."
+      ],
+      "book": { "tours": "Komani Lake ferry", "stays": "Valbona, Albania" }
+    },
+    {
+      "id": "theth",
+      "name": "Theth",
+      "tagline": "A remote village deep in the Accursed Mountains",
+      "region": "north",
+      "category": "mountains",
+      "coords": [42.3958, 19.7744],
+      "image": "Scenery at Theth Village - Northern Albania - 19 (40927652580).jpg",
+      "bestTime": "June to September (the pass is snowbound outside this window)",
+      "days": "2–3 days",
+      "summary": [
+        "Theth is a scattering of stone houses and guesthouses in a high valley ringed by the limestone peaks of the Albanian Alps, known locally as the Accursed Mountains. Family guesthouses serve home-cooked dinners made from what they grow.",
+        "From here you can hike to waterfalls and Theth's own Blue Eye pool, or cross the pass to Valbona on one of the Balkans' best day hikes."
+      ],
+      "highlights": [
+        "Hike Theth → Valbona over the Valbona Pass (about 6–8 hours)",
+        "Grunas waterfall and the Theth Blue Eye pool",
+        "The Lock-in Tower, a refuge from the blood-feud era",
+        "Theth's lone church against the mountains"
+      ],
+      "gettingThere": [
+        "From Shkodër: the road is now paved; minibuses take about 2.5–3 hours, leaving early morning.",
+        "On foot from Valbona: the classic one-day crossing over the pass."
+      ],
+      "watchOut": [
+        "There are no ATMs in Theth. Bring enough cash in lek for guesthouses, food and transport.",
+        "Mobile signal is patchy. Download offline maps before you go.",
+        "Mountain weather changes fast. Carry layers, water and a headtorch on longer hikes."
+      ],
+      "book": { "tours": "Theth", "stays": "Theth, Albania" }
+    },
+    {
+      "id": "valbona",
+      "name": "Valbona",
+      "tagline": "Alpine meadows, glacial river, enormous skies",
+      "region": "north",
+      "category": "mountains",
+      "coords": [42.4515, 19.8897],
+      "image": "Valbona Valley National Park, North Albania.jpg",
+      "bestTime": "June to September",
+      "days": "2–3 days",
+      "summary": [
+        "Valbona Valley National Park is a broad, wild valley carved by the Valbona river, with jagged peaks on every side. It's quieter than Theth and a wonderful place to slow down for a few days.",
+        "Most visitors arrive by the Lake Koman ferry and leave on foot over the pass to Theth, a route that has become a highlight of any trip to Albania."
+      ],
+      "highlights": [
+        "Hike Valbona → Theth over the Valbona Pass (about 1,800 m)",
+        "Swim in (very cold) river pools along the valley",
+        "Day hikes to the Kukaj lakes or Rragam",
+        "Guesthouse dinners with local cheese, honey and raki"
+      ],
+      "gettingThere": [
+        "Via the Lake Koman ferry, then minibus from Fierzë: a full but spectacular day from Shkodër.",
+        "By road via Bajram Curri, which connects to Kosovo and Tirana."
+      ],
+      "watchOut": [
+        "Many guesthouses offer to send luggage around by car while you hike to Theth. Arrange it the evening before.",
+        "Start the hike early: the climb is steep and exposed to sun.",
+        "Cash only in most places."
+      ],
+      "book": { "tours": "Valbona", "stays": "Valbona, Albania" }
+    }
+  ]
+}
