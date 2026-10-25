@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "updated": "2026-10-25",
+  "intro": "Albania is easy to love and occasionally hard to navigate. Timetables are informal, mountain roads are slow and cash still rules outside the cities. A little preparation goes a long way.",
+  "sections": [
+    {
+      "id": "arriving",
+      "title": "Arriving",
+      "icon": "plane",
+      "items": [
+        { "title": "Fly into Tirana", "text": "Tirana International Airport (TIA) is the main gateway, about 17 km from the city centre. An airport bus runs into town roughly hourly, and an official taxi rank sits outside arrivals." },
+        { "title": "Ferry from Corfu or Italy", "text": "Fast ferries link Corfu with Sarandë in about 30–40 minutes, a popular way to start on the south coast. Overnight ferries run from Italian ports such as Bari to Durrës." },
+        { "title": "Overland from the Balkans", "text": "Buses cross from Montenegro (to Shkodër), Kosovo (to Tirana and Kukës) and North Macedonia (to Pogradec and Tirana)." },
+        { "title": "Entry rules", "text": "Many nationalities, including EU, UK, US, Canadian and Australian citizens, can visit visa-free for up to 90 days. Check the current rules for your passport before you travel." }
+      ]
+    },
+    {
+      "id": "buses",
+      "title": "Buses and furgons",
+      "icon": "bus",
+      "items": [
+        { "title": "No central timetable", "text": "Intercity buses and minibuses (furgons) are run by many small operators. There's no single website with schedules; ask your accommodation, which usually knows the current times and stops." },
+        { "title": "Morning is best", "text": "Most departures happen in the morning. Services thin out after early afternoon, and some routes have only one departure a day." },
+        { "title": "Furgons leave when full", "text": "Minibuses often wait until they fill up. You can usually flag them down along their route, and you pay the driver in cash." },
+        { "title": "Tirana's bus terminals", "text": "Most long-distance buses use the North–South terminal west of the centre, but some still leave from street-side stops. Confirm your departure point the day before." }
+      ]
+    },
+    {
+      "id": "driving",
+      "title": "Driving",
+      "icon": "car",
+      "items": [
+        { "title": "Slower than the map says", "text": "Main highways are good, but mountain and coastal roads are narrow and winding. Add 30–50% to the travel times your map app suggests." },
+        { "title": "Expect the unexpected", "text": "Livestock, pedestrians and sudden overtaking are common. Avoid driving mountain roads after dark." },
+        { "title": "Paperwork", "text": "Police checkpoints are frequent; keep your licence, passport and car documents to hand. If you're crossing borders in a rental car, check your contract allows it." }
+      ]
+    },
+    {
+      "id": "money",
+      "title": "Money",
+      "icon": "cash",
+      "items": [
+        { "title": "Carry lek", "text": "The currency is the Albanian lek (ALL). Cards are widely accepted in cities, but guesthouses, minibuses and village cafés are usually cash only." },
+        { "title": "ATMs in towns, not mountains", "text": "Withdraw cash in Shkodër or Bajram Curri before heading to Theth or Valbona. There are no ATMs in the high valleys." },
+        { "title": "Euros, sometimes", "text": "Euros are accepted in many tourist areas, but at a poor rate. Paying in lek is almost always cheaper." }
+      ]
+    },
+    {
+      "id": "good-to-know",
+      "title": "Good to know",
+      "icon": "info",
+      "items": [
+        { "title": "Head gestures", "text": "Some Albanians, especially older people, nod for 'no' and shake their head for 'yes'. When in doubt, ask with words." },
+        { "title": "Seasons", "text": "Beaches are busiest from mid-July to the end of August. Mountain passes are usually open from June to September. Spring and autumn are ideal for cities and history." },
+        { "title": "Connectivity", "text": "Mobile data is cheap and coverage is good in towns. Signal disappears in mountain valleys, so download offline maps first." },
+        { "title": "Emergencies", "text": "Dial 112 for emergencies. Plugs are the European two-pin type at 230 V." }
+      ]
+    }
+  ]
+}
